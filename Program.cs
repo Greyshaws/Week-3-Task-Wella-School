@@ -8,7 +8,7 @@ namespace Week3Task
         {
             Console.Write("Enter a number...");
             int num = int.Parse(Console.ReadLine());
-            int a = 0; // to check if it is a prime number or not
+            int a = 0; // to check if the number is a prime number or not
             for(int i = 1; i <= num; i++) {
                 if (num % i == 0) {
                     a++;
